@@ -9,6 +9,23 @@
         <title>Portfolio | Andrew R. | About</title>
         <link rel="stylesheet" href="./css/style.css">
 
+        <style>
+            .projList{
+                margin-left:10%;
+                color: black;
+                list-style-type:none;
+            }
+            .projLink{
+                text-decoration:none;
+            }
+            .projLink:hover{
+                font-weight:bold;
+                font-size:1.2em;
+                color:white;
+            }
+                
+            
+        </style>
     </head>
     <body>
         <header>
@@ -47,10 +64,10 @@
                 <aside id="sidebar">
                     <div class="dark">
                         <h3>Projects</h3>
-                        <ul>
-                            <li><a href="http://portfolioandrew.website/pongjs/">Pong JS</a></li>
-                            <li><a href="http://portfolioandrew.website/drawJS/">Draw JS</a></li>
-                            <li><a href="http://portfolioandrew.website/cat-house/">A Place For Cats</a></li>
+                        <ul class="projList">
+                            <li class="projItem"><a href="http://portfolioandrew.website/pongjs/" target="_blank" class="projLink">Pong JS</a></li>
+                            <li class="projItem"><a href="http://portfolioandrew.website/drawJS/" target="_blank" class="projLink">Draw JS</a></li>
+                            <li class="projItem"><a href="http://portfolioandrew.website/cat-house/" target="_blank" class="projLink">A Place For Cats</a></li>
                         </ul>
                     </div>
                 </aside>
